@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    max-width: 100%;
+    
     
 }
  body{
@@ -52,7 +52,146 @@
     box-shadow: -10px -10px 4px #FFC7D6, 10px 10px 4px #92A3FF;
     z-index: -1;
     position: absolute;
+    max-width: 100%;
 }
+@media screen and (max-width: 1200px){
+    .bolinha{
+        width: 15rem;
+        height: 15rem;
+        max-width: 100%;
+        max-height: 50%;
+    } .ola{
+        font-size: 1.5rem;
+        text-align: center;
+    } .facul{
+        max-width: 50%;    
+        font-size: 12px;
+        text-align: center;
+        
+    } .girl{
+        max-width: 70%;
+        align-content: center;
+        
+    } .head{
+        background-size: 200% 100%;
+        justify-content: center;
+        gap: 5rem;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    } .bolinha1, .bolinha2{
+        display: none;
+
+    } .apresentar{
+        padding: 1rem;
+        z-index: 1;
+        color: #555351;
+
+    } .sobre{
+        padding: 2rem !important;
+
+    } .title{
+        font-size: 20px !important;
+
+    } .descri{
+        font-size: 15px !important;
+    } .divProjetos{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 1rem;
+    } .projeto{
+        display: flex;
+        margin: 10px !important;
+        padding: 1rem !important;
+        gap: 0px !important;
+        z-index: 1;
+        border-radius: 20px;
+        box-shadow: -3px -3px 3px #FFC7D6, 3px 3px 3px #92A3FF;
+    } 
+    .iconsSocial{
+        width: 50% !important;
+    } .imgProject1{
+        border-radius: 10px;
+        z-index: 1;
+        max-width: 10rem ;
+        align-content: center;
+    }
+    .imgProject2{
+        position: relative;
+        border-radius: 10px;
+        z-index: 0;
+        max-width: 10rem ;
+        left: -80px !important;
+
+
+
+    } .imgProject3{
+        border-radius: 10px;
+        z-index: 1;
+        width: 90%;
+        height: 80%;
+        padding: -800px;
+    
+    }
+    .imgProject4{
+        position: relative;
+        border-radius: 10px;
+        z-index: 0;
+        max-width: 10rem ;
+        left: -80px !important;
+    }
+    .imgProject5{
+        border-radius: 10px;
+        z-index: 1;
+        max-width: 10rem ;;
+        padding: -800px;
+    
+    }
+    .imgProject6{
+        position: relative;
+        border-radius: 10px;
+        z-index: 0;
+        max-width: 10rem;
+        left: -80px !important;
+    }
+    .imgProject7{
+        border-radius: 10px;
+        z-index: 1;
+        max-width: 10rem ;
+        padding: -800px;
+    
+    }
+    .imgProject8{
+        position: relative;
+        border-radius: 10px;
+        z-index: 0;
+        max-width: 10rem ;
+        left: -80px !important;
+    }
+    .imgProject9{
+        border-radius: 10px;
+        z-index: 1;
+        max-width: 10rem ;
+        padding: -800px;
+    
+    }
+    .imgProject10{
+        position: relative;
+        border-radius: 10px;
+        z-index: 0;
+        max-width: 10rem ;
+        left: -50px !important;
+    } .txtProjeto{
+        max-width: 50%;
+
+    } h2{
+        font-size: 20px;
+    } 
+}
+    
+
 .girlBolinhas{
     display: flex;   
 }
